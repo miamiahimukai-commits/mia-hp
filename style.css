@@ -317,15 +317,6 @@ body {
     gap: 20px;
 }
 
-.schedule-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
 .schedule-wrapper {
     background: rgba(255, 183, 3, 0.05);
     border: 2px dashed rgba(255, 183, 3, 0.4);
@@ -333,26 +324,6 @@ body {
     padding: 20px 50px;
     display: inline-block;
     transition: var(--transition-smooth);
-}
-
-.yt-sub-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 15px;
-    padding: 10px 20px;
-    height: 100%;
-    min-height: 80px;
-    transition: var(--transition-smooth);
-}
-
-.yt-sub-wrapper:hover {
-    background: rgba(255, 183, 3, 0.05);
-    border-color: rgba(255, 183, 3, 0.3);
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(255, 183, 3, 0.15);
 }
 
 .schedule-wrapper:hover {

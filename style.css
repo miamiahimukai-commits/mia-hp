@@ -124,6 +124,7 @@ body {
     background: linear-gradient(90deg, transparent, var(--color-glass-highlight), transparent);
     transform: skewX(-20deg);
     animation: shine 8s infinite;
+    pointer-events: none;
 }
 
 /* Typography */
@@ -371,6 +372,17 @@ body {
 
 .stream-link-text:hover {
     color: var(--color-primary);
+}
+
+.subscribe-btn-wrapper {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .stream-btn-wrapper {
